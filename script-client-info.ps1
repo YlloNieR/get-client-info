@@ -18,8 +18,10 @@ $ageInYears = ($today - $installDate).Days / 365
 $ageInYearsFormatted = "{0:N2}" -f $ageInYears
 
 # Prompt user for email address
-Write-Host ">> Please enter your email address <<" -ForegroundColor Yellow
+Write-Host 
+Write-Host "Please enter your email address" -ForegroundColor Yellow
 $userEmail = Read-Host
+Write-Host 
 
 # set timestamp
 $timestamp = Get-Date -Format "yyyy-MM-dd_HHmmss"
@@ -74,4 +76,6 @@ $data = @{
 $jsonFilePath = "$env:USERPROFILE\Desktop\"+$timestamp+"-"+$userEmail+"-"+$SystemUUID+"-client-info.json"
 $data | ConvertTo-Json -Depth 3 | Set-Content -Path $jsonFilePath
 
-Write-Host ">> The data has been successfully exported as a JSON file: $jsonFilePath <<" -ForegroundColor Green
+Write-Host 
+Write-Host "The data has been successfully exported as a JSON file: $jsonFilePath" -ForegroundColor Green
+Write-Host 
