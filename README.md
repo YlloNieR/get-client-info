@@ -8,3 +8,8 @@
     ```powershell
     .\script-client-info.ps1
     ```
+
+4. 
+    ```powershell
+    rm .\script-client-info.ps1
+    ```
