@@ -6,5 +6,5 @@
 
 3. 
     ```powershell
-    script-client-info.ps1
+    .\script-client-info.ps1
     ```
