@@ -85,6 +85,7 @@
     Write-Host 
     Write-Host "The data has been successfully exported as a JSON file: $jsonFilePath" -ForegroundColor Green
     Write-Host 
+    cd "$env:USERPROFILE\Documents\"
     ii .
     ```
 
