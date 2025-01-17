@@ -107,3 +107,15 @@
     rm .\script-client-info.ps1
     
     ```
+
+# On macOS Clients
+1. Cmd + Leertaste
+2. Terminal
+3. 
+    ```bash
+    curl -o script-client-info.ps1 https://raw.githubusercontent.com/YlloNieR/get-client-info/refs/heads/main/script-client-info.sh
+    ```
+4. 
+    ```bash    
+    bash script-client-info.sh # chmod +x client_info_mac.sh; ./script-client-info.sh
+    ```
