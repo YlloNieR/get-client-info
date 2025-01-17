@@ -1,5 +1,5 @@
 # On Windows Clients
-## unprivileged mode 
+## unprivileged mode [![Status](https://img.shields.io/badge/Status_🟢-Test_Passed-09bf6c.svg)]()
 
 1. Open Powershell ISE
 2. 
@@ -89,7 +89,7 @@
     ii .
     ```
 
-## privileged mode
+## privileged mode [![Status](https://img.shields.io/badge/Status_🔴-Test_Failed-e0453d.svg)]()
 
 1. Open Powershell
 2. 
@@ -108,8 +108,9 @@
     
     ```
 
-# On macOS Clients
-## privileged mode
+# On macOS Clients 
+
+## privileged mode [![Status](https://img.shields.io/badge/Status_⚫-not_Tested-000.svg)]()
 
 1. Cmd + Leertaste
 2. Terminal
