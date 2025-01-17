@@ -109,6 +109,8 @@
     ```
 
 # On macOS Clients
+## privileged mode
+
 1. Cmd + Leertaste
 2. Terminal
 3. 
