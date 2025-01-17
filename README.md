@@ -113,7 +113,7 @@
 2. Terminal
 3. 
     ```bash
-    curl -o script-client-info.ps1 https://raw.githubusercontent.com/YlloNieR/get-client-info/refs/heads/main/script-client-info.sh
+    curl -o script-client-info.sh https://raw.githubusercontent.com/YlloNieR/get-client-info/refs/heads/main/script-client-info.sh
     ```
 4. 
     ```bash    
